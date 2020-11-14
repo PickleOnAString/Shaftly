@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmariteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagmariteArmor.legs"
+    },
+    "name": "magmarite_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

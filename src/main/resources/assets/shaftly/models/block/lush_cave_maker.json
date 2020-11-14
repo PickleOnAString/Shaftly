@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shaftly:blocks/moss",
+    "up": "shaftly:blocks/moss",
+    "north": "shaftly:blocks/moss",
+    "east": "shaftly:blocks/moss",
+    "south": "shaftly:blocks/moss",
+    "west": "shaftly:blocks/moss",
+    "particle": "shaftly:blocks/moss"
+  }
+}

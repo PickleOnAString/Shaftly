@@ -1,0 +1,24 @@
+{
+  "group": "shaftly",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "shaftly:magmarite_ingot"
+    },
+    "1": {
+      "item": "shaftly:magmarite_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "shaftly:magmarite_sword",
+    "count": 1
+  }
+}

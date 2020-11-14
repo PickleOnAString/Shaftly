@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shaftly:blocks/lavastone",
+    "up": "shaftly:blocks/lavastone",
+    "north": "shaftly:blocks/lavastone",
+    "east": "shaftly:blocks/lavastone",
+    "south": "shaftly:blocks/lavastone",
+    "west": "shaftly:blocks/lavastone",
+    "particle": "shaftly:blocks/lavastone"
+  }
+}

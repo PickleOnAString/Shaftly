@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shaftly:blocks/magmarite",
+    "up": "shaftly:blocks/magmarite",
+    "north": "shaftly:blocks/magmarite",
+    "east": "shaftly:blocks/magmarite",
+    "south": "shaftly:blocks/magmarite",
+    "west": "shaftly:blocks/magmarite",
+    "particle": "shaftly:blocks/magmarite"
+  }
+}

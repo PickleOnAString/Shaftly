@@ -1,0 +1,26 @@
+{
+  "group": "shaftly",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "shaftly:magmarite_ingot"
+    },
+    "2": {
+      "item": "shaftly:magmarite_ingot"
+    },
+    "3": {
+      "item": "shaftly:magmarite_ingot"
+    },
+    "5": {
+      "item": "shaftly:magmarite_ingot"
+    }
+  },
+  "result": {
+    "item": "shaftly:magmarite_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "LushCaveMakerUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lush_cave_maker_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LushCaveMaker",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lush_cave_maker"
+    },
+    {
+      "name": "LushCave",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lush_cave",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaveViewerPotionFoodEaten",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_viewer_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaveViewerPotion",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_viewer_potion"
+    },
+    {
+      "name": "NiteTaterPlant",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nite_tater_plant"
+    },
+    {
+      "name": "NiteTaterPlantBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nite_tater_plant_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NiteTaterFoodEaten",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nite_tater_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NiteTaterNugget",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nite_tater_nugget"
+    },
+    {
+      "name": "NiteTater",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nite_tater"
+    },
+    {
+      "name": "Moss",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moss"
+    },
+    {
+      "name": "MagmaCaveMaker",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_cave_maker"
+    },
+    {
+      "name": "MagmaCaveMakerUpdateTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_cave_maker_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmaCave",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_cave",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavastone",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavastone"
+    },
+    {
+      "name": "BurningTouch",
+      "type": "enchantment",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burning_touch"
+    },
+    {
+      "name": "MagmariteIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_ingot"
+    },
+    {
+      "name": "MagmariteOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_ore"
+    },
+    {
+      "name": "MagmariteOreSmelting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_ore_smelting"
+    },
+    {
+      "name": "MagmaritePickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_pickaxe"
+    },
+    {
+      "name": "MagmariteAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_axe"
+    },
+    {
+      "name": "MagmariteSword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_sword"
+    },
+    {
+      "name": "MagmariteShovel",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_shovel"
+    },
+    {
+      "name": "MagmariteHoe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_hoe"
+    },
+    {
+      "name": "MagmaritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_pickaxe_recipe"
+    },
+    {
+      "name": "MagmariteAxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_axe_recipe"
+    },
+    {
+      "name": "MagmariteSwordRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_sword_recipe"
+    },
+    {
+      "name": "MagmariteShovelRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_shovel_recipe"
+    },
+    {
+      "name": "MagmariteHoeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_hoe_recipe"
+    },
+    {
+      "name": "MagmariteArmor",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MagmariteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_armor_helmet_recipe"
+    },
+    {
+      "name": "MagmariteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_armor_body_recipe"
+    },
+    {
+      "name": "MagmariteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_armor_leggings_recipe"
+    },
+    {
+      "name": "MagmariteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmarite_armor_boots_recipe"
+    },
+    {
+      "name": "Glowcelium",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowcelium"
+    },
+    {
+      "name": "Glowshroom",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom"
+    },
+    {
+      "name": "GlowshroomItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_item_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomItem",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_item"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.shaftly.lush_cave_maker": "Lush Cave Maker",
+      "item.shaftly.magmarite_shovel": "Magmarite Shovel",
+      "enchantment.shaftly.burning_touch": "Burning Touch",
+      "block.shaftly.magmarite_ore": "Magmarite Ore",
+      "item.shaftly.nite_tater": "Nite Tater",
+      "item.shaftly.magmarite_armor_chestplate": "Magmarite Chestplate",
+      "block.shaftly.moss": "Moss",
+      "block.shaftly.glowcelium": "Glowcelium",
+      "item.shaftly.magmarite_axe": "Magmarite Axe",
+      "item.shaftly.magmarite_armor_helmet": "Magmarite Helmet",
+      "item.shaftly.magmarite_armor_leggings": "Magmarite Leggings",
+      "item.shaftly.magmarite_armor_boots": "Magmarite Boots",
+      "item.shaftly.nite_tater_nugget": "Nite Tater Nugget",
+      "item.shaftly.magmarite_pickaxe": "Magmarite Pickaxe",
+      "block.shaftly.lavastone": "Lavastone",
+      "block.shaftly.magma_cave_maker": "Magma Cave Maker",
+      "item.shaftly.magmarite_sword": "Magmarite Sword",
+      "item.shaftly.glowshroom_item": "Glowshroom Item",
+      "item.shaftly.magmarite_ingot": "Magmarite",
+      "item.shaftly.cave_viewer_potion": "Cave Viewer Potion",
+      "block.shaftly.nite_tater_plant": "Nite Tater Plant",
+      "item.shaftly.magmarite_hoe": "Magmarite Hoe",
+      "block.shaftly.glowshroom": "Glowshroom"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "shaftly",
+    "modName": "shaftly",
+    "version": "1.0.0",
+    "author": "pickle, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.shaftly",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000543719
+}

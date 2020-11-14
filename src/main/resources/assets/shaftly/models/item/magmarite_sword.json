@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "shaftly:items/magmarite_sword"
+  }
+}

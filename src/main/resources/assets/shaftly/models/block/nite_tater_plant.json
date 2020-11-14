@@ -1,0 +1,8 @@
+{
+  "parent": "shaftly:custom/nite_tater",
+  "textures": {
+    "all": "shaftly:blocks/nite_tater",
+    "particle": "shaftly:blocks/nite_tater",
+    "0": "shaftly:blocks/nite_tater"
+  }
+}

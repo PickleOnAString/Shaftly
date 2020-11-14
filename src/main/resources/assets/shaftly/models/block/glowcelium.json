@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shaftly:blocks/glowcelium_bottom",
+    "up": "shaftly:blocks/glowcelium_top",
+    "north": "shaftly:blocks/glowcelium_side",
+    "east": "shaftly:blocks/glowcelium_side",
+    "south": "shaftly:blocks/glowcelium_side",
+    "west": "shaftly:blocks/glowcelium_side",
+    "particle": "shaftly:blocks/glowcelium_top"
+  }
+}

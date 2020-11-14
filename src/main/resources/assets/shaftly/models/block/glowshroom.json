@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "shaftly:blocks/glowshroom",
+    "particle": "shaftly:blocks/glowshroom"
+  }
+}

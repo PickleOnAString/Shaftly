@@ -1,0 +1,12 @@
+{
+  "group": "shaftly",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "shaftly:magmarite_ore"
+  },
+  "result": {
+    "item": "shaftly:magmarite_ingot"
+  }
+}
