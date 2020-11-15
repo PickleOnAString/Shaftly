@@ -462,6 +462,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -488,6 +492,82 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowshroom_item"
+    },
+    {
+      "name": "GlowshroomCaveMakerUpdateTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_cave_maker_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomCaveMakerBlockAdded",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_cave_maker_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomCaveMaker",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_cave_maker"
+    },
+    {
+      "name": "GlowhroomVine",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowhroom_vine"
     }
   ],
   "variable_elements": [],
@@ -496,23 +576,25 @@
     "en_us": {
       "block.shaftly.lush_cave_maker": "Lush Cave Maker",
       "item.shaftly.magmarite_shovel": "Magmarite Shovel",
-      "enchantment.shaftly.burning_touch": "Burning Touch",
       "block.shaftly.magmarite_ore": "Magmarite Ore",
+      "block.shaftly.glowshroom_cave_maker": "Glowshroom Cave Maker",
       "item.shaftly.nite_tater": "Nite Tater",
       "item.shaftly.magmarite_armor_chestplate": "Magmarite Chestplate",
       "block.shaftly.moss": "Moss",
       "block.shaftly.glowcelium": "Glowcelium",
-      "item.shaftly.magmarite_axe": "Magmarite Axe",
-      "item.shaftly.magmarite_armor_helmet": "Magmarite Helmet",
-      "item.shaftly.magmarite_armor_leggings": "Magmarite Leggings",
       "item.shaftly.magmarite_armor_boots": "Magmarite Boots",
-      "item.shaftly.nite_tater_nugget": "Nite Tater Nugget",
       "item.shaftly.magmarite_pickaxe": "Magmarite Pickaxe",
-      "block.shaftly.lavastone": "Lavastone",
       "block.shaftly.magma_cave_maker": "Magma Cave Maker",
       "item.shaftly.magmarite_sword": "Magmarite Sword",
       "item.shaftly.glowshroom_item": "Glowshroom Item",
       "item.shaftly.magmarite_ingot": "Magmarite",
+      "enchantment.shaftly.burning_touch": "Burning Touch",
+      "block.shaftly.glowhroom_vine": "Glowhroom Vine",
+      "item.shaftly.magmarite_axe": "Magmarite Axe",
+      "item.shaftly.magmarite_armor_helmet": "Magmarite Helmet",
+      "item.shaftly.magmarite_armor_leggings": "Magmarite Leggings",
+      "item.shaftly.nite_tater_nugget": "Nite Tater Nugget",
+      "block.shaftly.lavastone": "Lavastone",
       "item.shaftly.cave_viewer_potion": "Cave Viewer Potion",
       "block.shaftly.nite_tater_plant": "Nite Tater Plant",
       "item.shaftly.magmarite_hoe": "Magmarite Hoe",

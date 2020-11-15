@@ -8,10 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -31,11 +27,11 @@ import java.util.List;
 import java.util.Collections;
 
 @ShaftlyModElements.ModElement.Tag
-public class GlowshroomBlock extends ShaftlyModElements.ModElement {
-	@ObjectHolder("shaftly:glowshroom")
+public class GlowhroomVineBlock extends ShaftlyModElements.ModElement {
+	@ObjectHolder("shaftly:glowhroom_vine")
 	public static final Block block = null;
-	public GlowshroomBlock(ShaftlyModElements instance) {
-		super(instance, 40);
+	public GlowhroomVineBlock(ShaftlyModElements instance) {
+		super(instance, 44);
 	}
 
 	@Override
@@ -54,7 +50,7 @@ public class GlowshroomBlock extends ShaftlyModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(9).doesNotBlockMovement()
 					.notSolid());
-			setRegistryName("glowshroom");
+			setRegistryName("glowhroom_vine");
 		}
 
 		@Override
@@ -65,12 +61,6 @@ public class GlowshroomBlock extends ShaftlyModElements.ModElement {
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
-		}
-
-		@Override
-		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			Vec3d offset = state.getOffset(world, pos);
-			return VoxelShapes.create(-0.4D, -0.4D, -0.4D, 0.7D, 0.7D, 0.7D).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
