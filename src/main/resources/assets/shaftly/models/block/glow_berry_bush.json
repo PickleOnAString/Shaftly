@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "shaftly:blocks/glow_berry_bush",
+    "particle": "shaftly:blocks/glow_berry_bush"
+  }
+}

@@ -7,6 +7,7 @@ import net.minecraft.block.Blocks;
 import net.mcreator.shaftly.block.GlowshroomBlock;
 import net.mcreator.shaftly.block.GlowhroomVineBlock;
 import net.mcreator.shaftly.block.GlowceliumBlock;
+import net.mcreator.shaftly.block.GlowBerryBushBlock;
 import net.mcreator.shaftly.ShaftlyModElements;
 
 import java.util.Map;
@@ -43,12 +44,28 @@ public class GlowshroomCaveMakerBlockAddedProcedure extends ShaftlyModElements.M
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((Blocks.CAVE_AIR.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock())) {
-			if ((Blocks.STONE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock())) {
+			if (((((Blocks.STONE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock())
+					|| (Blocks.DIORITE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+							.getBlock()))
+					|| ((Blocks.ANDESITE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+							.getBlock())
+							|| (Blocks.GRANITE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+									.getBlock())))
+					|| (((Blocks.IRON_ORE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+							.getBlock())
+							|| (Blocks.LAPIS_ORE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+									.getBlock()))
+							|| ((Blocks.COAL_ORE.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
+									.getBlock())
+									|| (Blocks.REDSTONE_ORE.getDefaultState()
+											.getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock()))))) {
 				world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), GlowceliumBlock.block.getDefaultState(), 3);
 				if ((0.05 >= Math.random())) {
 					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), GlowshroomBlock.block.getDefaultState(), 3);
+				} else if ((0.05 >= Math.random())) {
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), GlowBerryBushBlock.block.getDefaultState(), 3);
 				}
-			} else if (((0.2 >= Math.random()) && (Blocks.STONE.getDefaultState()
+			} else if (((0.09 >= Math.random()) && (Blocks.STONE.getDefaultState()
 					.getBlock() == (world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock()))) {
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), GlowhroomVineBlock.block.getDefaultState(), 3);
 			} else {

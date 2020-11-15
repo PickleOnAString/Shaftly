@@ -568,6 +568,102 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowhroom_vine"
+    },
+    {
+      "name": "GlowBerryBushOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_berry_bush_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowBerryBush",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_berry_bush"
+    },
+    {
+      "name": "GlowBerryBushUpdateTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_berry_bush_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomUpdateTick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -595,6 +691,7 @@
       "item.shaftly.magmarite_armor_leggings": "Magmarite Leggings",
       "item.shaftly.nite_tater_nugget": "Nite Tater Nugget",
       "block.shaftly.lavastone": "Lavastone",
+      "block.shaftly.glow_berry_bush": "Glow Berry Bush",
       "item.shaftly.cave_viewer_potion": "Cave Viewer Potion",
       "block.shaftly.nite_tater_plant": "Nite Tater Plant",
       "item.shaftly.magmarite_hoe": "Magmarite Hoe",
